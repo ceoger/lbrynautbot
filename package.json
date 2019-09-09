@@ -11,8 +11,9 @@
     "embed-creator": "^1.2.3",
     "file-exists": "^5.0.1",
     "jsonfile": "^5.0.0",
-    "jsonpath": "^1.0.0",
+    "jsonpath": "^1.0.1",
     "moment": "^2.21.0",
+    "mongodb": "latest",
     "mongoose": "^4.13.17",
     "needle": "^2.2.4",
     "node-config": "^0.0.2",
@@ -20,8 +21,7 @@
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "sleep": "^5.1.1",
-    "wget": "^0.0.1",
-    "mongodb": "latest"
+    "wget": "^0.0.1"
   },
   "scripts": {
     "prettier": "prettier --write \"{bot,.}/**/*.{js,json}\" --single-quote --print-width 240",

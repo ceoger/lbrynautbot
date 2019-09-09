@@ -1,0 +1,74 @@
+{
+  // Bot configuration
+  "bot": {
+    "token": "",
+    "prefix": "!",
+    "debug": false
+  },
+  "moderation": {
+    "perms": ["Moderator Team", "LBRYC TEAM"], // Roles that have access to all commands.
+    "logchannel": "371620338263523328" // Channel to log the bots moderation..
+  },
+  "lbrycrd": {
+    "host": "localhost",
+    "port": 9245,
+    "user": "lbry",
+    "pass": "Kali4hackin"
+  },
+  "mongodb": {
+    "url": "mongodb://localhost:27017/wunderbot"
+  },
+  "Channels": {
+    "random": "363084227518136322"
+  },
+  "speechbot": {
+    "channels": [
+      "529553741247152150",
+      "529561992671789076",
+      "530747972133191680",
+      "529562496273743872",
+      "529575330495725598",
+      "529562580734312448",
+      "530747887898984458",
+      "529562756257415178"
+    ], // Channels speech bot is allowed to post in
+    "mainchannel": "530753422903869450" // Main Speech Bot channel for directing with help message
+  },
+  "pricebot": {
+    "channels": ["530747972133191680", "529562756257415178", "530750103284350988"], // Chanels price bot is allowed to post in
+    "mainchannel": "530747972133191680" // Main Price Bot channel for directing with help message
+  },
+  "gitrelease": {
+    "channel": "530747887898984458" // Channel to send release info to using <!releasenotes post>
+  },
+  "spamdetection": {
+    "channels": ["529553741247152150", "529561992671789076"], // Channels excluded from Spam Detection
+    "users": ["439859917042483214", "370589004179177472"] // Users to exclude from Spam Detection (include other bots here)
+  },
+  
+  "statsbot": {
+    "channels": ["363050205043621908", "369896313082478594", "371620338263523328"], // Channels Stats Bot is allowed to post in
+    "mainchannel": "363050205043621908" // Main Stats Bot channel for directing with help message
+  },
+  "claimbot": {
+    "channels": ["363086719391629326"]
+  },
+  "rolelist": {
+    "baserole": "LBRYian",
+    "allowedroles": ["NSFW", "Traders", "Miners", "Off-Topic Chats", "International", "Dev"]
+  },
+  "irc": {
+    "nickname": "wunderbot",
+    "server": "chat.freenode.net",
+    "discordToken": "",
+    "ircOptions": {
+      "userName": "wunderbot",
+      "nick": "wunderbot",
+      "password": "",
+      "sasl": true
+    },
+    "channelMapping": {
+      "#shared": "#lbry"
+    }
+  }
+}
