@@ -59,7 +59,7 @@
 
   - *Responds to `!roles` - List Available Roles*
 
-* LBRY URL Linker displays lbry:// urls as open.lbry.io links to make them clickable
+* LBRY URL Linker displays lbry:// urls as open.lbry.com links to make them clickable
 
 * LBRY claim bot displays recent publishes on the lbry protocol
 
@@ -103,5 +103,9 @@ npm install
 to run prettier before submitting your code simply run the following in the bots root directory.
 
 ```
-npm run precommit
+npm run prettier
+```
+To be sure your build will pass with TravisCI, also be sure to run
+```
+npm run test
 ```
