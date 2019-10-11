@@ -6,7 +6,7 @@
     "debug": false
   },
   "moderation": {
-    "perms": ["Moderator Team", "LBRY TEAM"], // Roles that have access to all commands.
+    "perms": ["Admin", "Support"], // Roles that have access to all commands.
     "logchannel": "371620338263523328" // Channel to log the bots moderation..
   },
   "lbrycrd": {
@@ -62,7 +62,7 @@
     "channels": ["363086719391629326"]
   },
   "rolelist": {
-    "baserole": "LBRYian",
+    "baserole": "LBRYnaut",
     "allowedroles": ["NSFW", "Traders", "Miners", "Off-Topic Chats", "International", "Dev"]
   },
   "irc": {
